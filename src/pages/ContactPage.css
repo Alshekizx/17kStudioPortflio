@@ -1,0 +1,198 @@
+*{text-align: start;
+    color: var(--link-color);}
+    :root {
+        --primary-color: #414042;
+        --secondary-color: #58595B;
+        --tertiary-color: #111111;
+        --link-color: white;
+        --link-hover-color: #1a212c;
+        --dark-color: #1e1e1f;
+        --black-color: #0d0d0e;
+      }
+      .ContactDiv{
+        background-color:var(--tertiary-color);
+        padding-top: 20px;
+        
+
+      }
+      .ContactDiv2{
+        padding-top: 30px;
+        margin-left: 16px;
+        
+      }
+      .ContactDiv2 h2{
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 40px;
+        width: 400px;
+        line-height: 1;
+      }
+      .ContactEmpty{
+        width:50%;
+      }
+      .ContactDivLine{
+        border-top: solid 2px var(--primary-color);
+        width: 98%;
+      }
+      .ContactContentDiv{
+        display: flex;
+       
+        padding: 85px 16px;
+        width: 100%;
+        
+        justify-content: space-between;
+
+      }
+      .ContactContent{
+        height: auto;
+        width: 45%;
+        border: solid 1px var(--primary-color);
+        border-radius: 30px;
+
+      }
+      .ContactImageDiv{
+        height: auto;
+        width: 45%;
+       
+        border-radius: 30px;
+
+      }
+
+.ContactImageDiv{
+  background-image: url('../Assets/images/17kassets/cole2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: right;
+background-color: #000000b4;
+background-blend-mode: multiply;
+      }
+      .inputName, .inputEmail{
+        height: 40px;
+        width: 35vw;
+        border-radius: 15px;
+        color: var(--black-color);
+        padding: 0 20px;
+      }
+      .inputNote{
+        height: 200px;
+        width: 35vw;
+        border-radius: 15px;
+        color: var(--black-color);
+        padding: 20px;
+      }
+      .ContactContent{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+      }
+      .ContactContentForm{
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+      }
+      .contactSubmitButton{
+        background-color: var(--primary-color);
+        margin-top: 20px;
+      }
+      .contactSubmitButton:hover{
+        background-color: var(--black-color);
+      }
+      .checkboxDiv{
+        justify-content: start;
+        align-items: center;
+        display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+
+    width: 35vw; 
+    gap: 10%;
+      }
+      .checkboxDiv div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      width: 100%; 
+      position:relative;
+      }
+      .helpP{
+        width: 35vw;
+        margin: 20px 0;
+      }
+      @media (max-width: 768px){
+        .ContactDiv{
+         
+          padding-top: 15px;
+          
+  
+        }
+        .ContactDiv2{
+        
+        display: flex;
+        margin-left: 16px;
+        
+      }
+      .ContactDiv2 h2{
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 30px;
+        width: 300px;
+        line-height: 1;
+      }
+      
+        .ContactImageDiv{
+         display: none;
+        
+              }
+              
+              .ContactContent{
+                height: auto;
+                width: 95%;
+                border: solid 1px var(--primary-color);
+                border-radius: 30px;
+                padding: 50px 30px;
+                display: flex;
+                position: relative;
+                
+              }
+              .ContactContentForm{
+                width: 100%;
+                position: relative;
+                display: block;
+                flex-direction: column;
+                
+                justify-content: center;
+                align-items: center;
+                
+              }
+              .checkboxDiv{
+                justify-content: center;
+                align-items: center;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+        
+                width: 100%; 
+                 gap: auto;
+              }
+              .inputName, .inputEmail{
+                height: 40px;
+                width:90%;
+                border-radius: 15px;
+                color: var(--black-color);
+                padding: 0 20px;
+                position: relative;
+              }
+              .inputNote{
+                height: 200px;
+                width: 90%;
+                border-radius: 15px;
+                color: var(--black-color);
+                padding: 20px;
+                position: relative;
+              }
+      }
